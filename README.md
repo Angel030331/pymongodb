@@ -34,3 +34,6 @@ docker-compose -f mongodb.yml up
 ```
 
 ### Method 2: Pull the docker from DockerHub
+``` bash
+docker pull angelwong030331/pymongodb:latest
+```
