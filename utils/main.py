@@ -1,6 +1,5 @@
 import argparse
 import sys
-import os
 import subprocess
 from utils.makedb import createdb, createcollection, insertdata, insertdoc, get_db, get_collection, get_data, get_doc
 from utils.meta import Genbank_record, Gb_parser

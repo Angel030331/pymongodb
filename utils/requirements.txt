@@ -1,11 +1,6 @@
-subprocess
-mongodb
 biopython
-os-sys
 pandas
 numpy
-mafft
-iqtree2
 pymongo
-pickle
-json
+pickle5
+jsons

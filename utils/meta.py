@@ -1,5 +1,4 @@
 import re
-import os
 
 INPUT_DIR = str(input("Enter the path to the directory containing the genbank files: "))
 OUTPUT_DIR = str(input("Enter the path to the directory where the output files will be saved: "))
