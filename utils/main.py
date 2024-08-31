@@ -67,7 +67,7 @@ def main():
             else:
                 print("The input file is not in the correct format, please use either fasta, json, pkl, genbank, csv, tsv, or txt")
                 sys.exit(1)
-                """ potential add-ons: allow conversion to the required format """
+                # potential add-ons: allow conversion to the required format
         else:
             print("The input file is empty")
             sys.exit(1)
