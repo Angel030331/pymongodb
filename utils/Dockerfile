@@ -13,5 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 USER user
 COPY . /home/user/code
+WORKDIR /home/user/code
+EXPOSE 27017
 
 CMD ["tail", "-f", "/dev/null"]
